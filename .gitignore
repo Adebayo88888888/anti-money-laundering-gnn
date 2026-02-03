@@ -1,0 +1,16 @@
+# Ignore Data Files
+data/
+*.csv
+*.zip
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Virtual Environments
+.env
+venv/
+env/
+
+# Ignore Weights (Optional: If >100MB, but yours is small so you can keep it)
+# production/weights/*.pth
