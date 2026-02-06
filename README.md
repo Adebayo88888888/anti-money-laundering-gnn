@@ -94,7 +94,7 @@ This system is designed to act as a **Risk Engine Middleware** for Centralized E
 
 ### 💻 Tech Stack
 
-* **Modeling:** PyTorch, PyTorch Geometric, pandas, scikit-learn
+* **Modeling:** PyTorch, PyTorch Geometric, pandas
 * **Backend:** FastAPI
 * **Serialization:** PyTorch State Dict (`.pth`)
 * **Environment:** Virtualenv (venv)
