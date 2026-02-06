@@ -70,6 +70,41 @@ To solve this, I implemented a **Weighted Cross-Entropy Loss** mechanism (inspir
 * **The Code:** `class_weights = torch.tensor([1.0, 3.0])`
 * **The Result:** This forces the GNN to be "hyper-aware" of the minority class, significantly improving Recall (the ability to actually find the thieves) even if it slightly lowers overall precision.
 
+### 🛠️ Installation & Setup
+
+**Option A: Run with Docker (Recommended)**
+
+This guarantees the app runs exactly as intended without environment issues.
+
+1.  **Build the Image:**
+    ```bash
+    docker build -t aml-bitcoin-app .
+    ```
+
+2.  **Run the Container:**
+    ```bash
+    docker run -p 8000:8000 aml-bitcoin-app
+    ```
+    *The API is now live at `http://localhost:8000`*
+
+**Option B: Run Locally**
+
+1.  **Install Dependencies:** `pip install -r requirements.txt`
+2.  **Start Server:** `app.py`
+
+### 📡 API Usage
+Once the server is running, you can verify the model using the included test scripts:
+
+**1. Test a Standard Transaction:**
+```bash
+python test.py
+```
+2. Catch a Money Launderer (Illicit Test):
+
+```bash
+
+python catch_thief.py
+```
 
 ### 🌍 Real-World Application: CEX & AML Compliance
 
