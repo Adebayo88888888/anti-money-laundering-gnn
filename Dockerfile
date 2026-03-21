@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 8000
 
 # 7. Command to run the application
-# We use "production.app:app" because your file is inside the 'production' folder
+# We use "production.app:app" because the file is inside the 'production' folder
 CMD ["uvicorn", "production.app:app", "--host", "0.0.0.0", "--port", "8000"]
