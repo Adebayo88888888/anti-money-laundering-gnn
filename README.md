@@ -60,7 +60,6 @@ These features feed into the GNN to learn spatial dependencies between nodes.
 
 ---
 
-
 ### A Note on The "Consciousness" Mechanism (Class Imbalance)
 
 A critical challenge in the Elliptic dataset is that **illicit transactions are extremely rare** (<2% of data). A standard model could achieve 98% accuracy simply by closing its eyes and guessing "Licit" for everything—but it would catch zero criminals.
