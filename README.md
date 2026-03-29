@@ -50,7 +50,6 @@ The model is trained on the **Elliptic Data Set**, representing a graph of Bitco
 
 These features feed into the GNN to learn spatial dependencies between nodes.
 
-
 ### 🧠 Model Summary
 
 * **Model:** 2-Layer Chebyshev Graph Convolutional Network (ChebNet)
